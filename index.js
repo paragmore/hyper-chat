@@ -8,7 +8,7 @@ const os = require("os");
 const readline = require("readline");
 
 let mainWindow;
-const isDev = true;
+const isDev = false;
 app.on("ready", () => {
   const isWindows = os.platform() === "win32";
   mainWindow = new BrowserWindow({
